@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:beige;
+}
+
+#task-form {
+    margin-bottom: 20px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.task button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background:black;
+}
